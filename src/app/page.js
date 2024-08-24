@@ -8,31 +8,31 @@ import React from 'react'
  const words = [
     {
       text: "Transformative",
-    className: "text-secondary text-md md:text-2xl",
+    className: "text-secondary text-lg md:text-2xl",
     },
     {
       text: "Beauty ,",
-    className: "text-secondary text-md  md:text-2xl",
+    className: "text-secondary text-lg  md:text-2xl",
     },
     {
       text: "Delivered",
-     className: "text-secondary text-md md:text-2xl",
+     className: "text-secondary text-lg md:text-2xl",
     },
     {
       text: "by",
-       className: "text-secondary text-md md:text-2xl",
+       className: "text-secondary text-lg md:text-2xl",
     },
     {
       text: "Skilled",
-      className: "text-secondary text-md  md:text-2xl",
+      className: "text-secondary text-lg  md:text-2xl",
     },
     {
       text: "Gig",
-      className: "text-secondary text-md  md:text-2xl",
+      className: "text-secondary text-lg  md:text-2xl",
     },
     {
       text: "Workers",
-      className: "text-secondary text-md  md:text-2xl",
+      className: "text-secondary text-lg  md:text-2xl",
     },
    
    
@@ -81,7 +81,7 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        <div className='h-screen w-full relative'>
+        <div className='md:h-screen w-full relative py-20'>
            
             <Image src={'/bb.png'} width={300} height={300} alt='' className='p-0 absolute top-0 right-0 -mt-[2%] mr-[2%] hidden md:block'/>
           <div className='flex flex-col md:flex-row items-start'>
@@ -115,33 +115,33 @@ const HomePage = () => {
 
                </div>
             </div>
-            <div className='w-full md:w-2/3 px-5 '>
-              <h2 className='text-3xl text-secondary font-bold text-start md:text-center '>
+            <div className='w-full md:w-2/3 px-5 pt-6 md:pt-0 '>
+              <h2 className='text-3xl text-secondary font-bold md:text-start text-center '>
                 How We Work
               </h2>
               <div className='flex flex-col gap-3 px-3 pt-6 '>
                 <div className='flex flex-col items-center md:items-start gap-2'>
                     <div>
-                    <p className="bg-secondary text-white p-1 rounded-2xl w-[60%] md:w-[30%] text-center">
+                    <p className="bg-secondary text-white p-1 rounded-2xl  md:w-[30%] text-center">
                       <span className='text-xl'>1</span> Match with a Pro
                   </p>
-                    <p className='px-2 text-sm w-[50%] pt-2'>
+                    <p className='px-2 text-sm md:w-[50%] pt-2'>
                     Start by booking a consultation with one of our gig workers. We’ll match you with the perfect professional based on your needs, ensuring you get the best possible service.
                     </p>
                     </div>
                     <div className='md:pl-[20%]'>
-                    <p className="bg-secondary text-white p-1 rounded-2xl w-[40%] text-center">
+                    <p className="bg-secondary text-white p-1 rounded-2xl md:w-[40%] text-center">
                       <span className='text-xl'>2</span> Craft Your Look
                   </p>
-                    <p className='px-2 text-sm w-[60%] pt-2'>
+                    <p className='px-2 text-sm md:w-[60%] pt-2'>
                      Our freelance beauty experts will then bring your vision to life, whether it’s a fresh haircut, a rejuvenating facial, or a stunning manicure. Every detail is handled with care and precision.
                     </p>
                     </div>
                     <div className='md:pl-[40%]'>
-                    <p className="bg-secondary text-white p-1 rounded-2xl w-[50%] text-center">
+                    <p className="bg-secondary text-white p-1 rounded-2xl md:w-[50%] text-center">
                       <span className='text-xl'>3</span> Enjoy the Results
                   </p>
-                    <p className='px-2 text-sm w-[80%] pt-2'>
+                    <p className='px-2 text-sm md:w-[80%] pt-2'>
                      Leave our salon feeling confident, empowered, and ready to take on the world. With our gig workers at your service, you can count on a beauty experience that’s both exceptional and flexible.
                     </p>
                     </div>
