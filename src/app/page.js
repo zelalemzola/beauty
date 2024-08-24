@@ -8,31 +8,31 @@ import React from 'react'
  const words = [
     {
       text: "Transformative",
-    className: "text-secondary text-lg md:text-2xl",
+    className: "text-secondary text-md md:text-2xl",
     },
     {
       text: "Beauty ,",
-    className: "text-secondary text-lg  md:text-2xl",
+    className: "text-secondary text-md  md:text-2xl",
     },
     {
       text: "Delivered",
-     className: "text-secondary text-lg md:text-2xl",
+     className: "text-secondary text-md md:text-2xl",
     },
     {
       text: "by",
-       className: "text-secondary text-lg md:text-2xl",
+       className: "text-secondary text-md md:text-2xl",
     },
     {
       text: "Skilled",
-      className: "text-secondary text-lg  md:text-2xl",
+      className: "text-secondary text-md  md:text-2xl",
     },
     {
       text: "Gig",
-      className: "text-secondary text-lg  md:text-2xl",
+      className: "text-secondary text-md  md:text-2xl",
     },
     {
       text: "Workers",
-      className: "text-secondary text-lg  md:text-2xl",
+      className: "text-secondary text-md  md:text-2xl",
     },
    
    
@@ -40,7 +40,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div>
-        <div className='w-full  px-5 flex items-center justify-between fixed'>
+        <div className='w-full  px-2 md:px-5 flex items-center justify-between fixed'>
           <Image src={'/bb.png'} alt='' width={100} height={20} className=''/>
           <HeroButton/>
         </div>
@@ -81,22 +81,22 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        <div className='md:h-screen w-full relative py-20'>
+        <div className='md:h-screen w-full relative py-[15%] md:py-20'>
            
             <Image src={'/bb.png'} width={300} height={300} alt='' className='p-0 absolute top-0 right-0 -mt-[2%] mr-[2%] hidden md:block'/>
           <div className='flex flex-col md:flex-row items-start'>
-            <div className='w-full md:w-1/3 pl-10 '>
+            <div className='w-full md:w-1/3 md:pl-10  '>
                  <h2 className='text-secondary text-3xl font-bold text-center md:text-start'>What You Get</h2>
-                <div className='flex flex-col items-center gap-3 pt-5'>
-                <div className='flex flex-col '>
+                <div className='flex flex-col items-center gap-3 pt-5 '>
+                <div className='flex flex-col items-center'>
                   <p className="bg-secondary text-white p-1 rounded-2xl w-[80%] text-center">
                     Talent On Demand
                   </p>
-                  <p className='px-2 text-sm w-[80%] pt-2'>
+                  <p className='px-2 text-sm w-[80%] pt-2 items-center'>
                     Our salon is powered by a community of freelance beauty professionals who are passionate about their craft. Whether you need a last-minute appointment or a specialized service, our gig workers are here to deliver top-notch results.
                   </p>
                </div>
-                <div className='flex flex-col '>
+                <div className='flex flex-col items-center'>
                   <p className="bg-secondary text-white p-1 rounded-2xl w-[80%] text-center">
                     Flexibility & Convenience
                   </p>
@@ -104,7 +104,7 @@ const HomePage = () => {
                    Life is busy, and our gig workers offer the flexibility you need. Book appointments that fit your schedule and choose from a wide range of services, all provided by experts who are as dedicated as they are talented.
                   </p>
                </div>
-                <div className='flex flex-col '>
+                <div className='flex flex-col items-center'>
                   <p className="bg-secondary text-white p-1 rounded-2xl w-[80%] text-center">
                     Personalized & Unique
                   </p>
