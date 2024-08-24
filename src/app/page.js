@@ -158,8 +158,8 @@ const HomePage = () => {
                 </p>
             </div>
             <div className='p-2 flex flex-col md:flex-row gap-3 items-center'>
-                <div className='flex flex-col gap-3 w-2/3'>
-                    <h2 className="text-secondary text-2xl font-bold">Stay In Touch</h2>
+                <div className='flex flex-col gap-3 w-full md:w-2/3 '>
+                    <h2 className="text-secondary text-2xl font-bold text-center md:text-start">Stay In Touch</h2>
                     <p className="text-sm text-white">
                          Ready to discover your best look? Contact us today to book an appointment with one of our skilled gig workers. Your transformation starts here, with beauty services that fit your life, your style, and your schedule.
                     </p>
