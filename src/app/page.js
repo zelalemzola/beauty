@@ -40,7 +40,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div>
-        <div className='w-full  px-2 md:px-5 flex items-center justify-between fixed'>
+        <div className='w-full  px-2 md:px-5 flex items-center justify-between fixed z-20'>
           <Image src={'/bb.png'} alt='' width={100} height={20} className=''/>
           <HeroButton/>
         </div>
