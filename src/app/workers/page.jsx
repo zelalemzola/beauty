@@ -207,7 +207,7 @@ const Workers = () => {
                      <div className="h-[85%] overflow-y-auto px-6">
                       <DrawerHeader className='flex flex-col items-center justify-center'>
                       <DrawerTitle> 
-                         <Avatar className="absolute top-0 mt-[-15%]">
+                         <Avatar className="">
                   <AvatarImage src={maid.imageUrl} alt="worker photo"/>
                   <AvatarFallback>worker photo</AvatarFallback>
                 </Avatar>
