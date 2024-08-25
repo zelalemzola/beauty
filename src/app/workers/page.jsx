@@ -206,7 +206,12 @@ const Workers = () => {
                   <DrawerContent className='h-[95%] '>
                      <div className="h-[85%] overflow-y-auto px-6">
                       <DrawerHeader className='flex flex-col items-center justify-center'>
-                      <DrawerTitle> <Image src={maid.imageUrl} alt={maid.name} width={80} height={80} className="rounded-full" /></DrawerTitle>
+                      <DrawerTitle> 
+                         <Avatar className="absolute top-0 mt-[-15%]">
+                  <AvatarImage src={maid.imageUrl} alt="worker photo"/>
+                  <AvatarFallback>worker photo</AvatarFallback>
+                </Avatar>
+                      </DrawerTitle>
                       <DrawerDescription>
                       
                       <h2 className="card-title text-primary font-bold text-[32px] capitalize">{`${maid.name} ${maid.fathersName}`}</h2>
