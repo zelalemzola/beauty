@@ -1,4 +1,5 @@
 import HeroButton from '@/components/HeroButton'
+import Partners from '@/components/Partners';
 import { Button } from '@/components/ui/button';
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 import Image from 'next/image'
@@ -58,6 +59,7 @@ const HomePage = () => {
                 </div>
             </div> 
         </div>
+       
         <div className='h-screen w-full py-6'>
             <h2 className="text-3xl font-bold text-secondary text-center">Our Philosophy</h2>
             <div className='flex flex-col md:flex-row items-center gap-4 px-8 pt-20'>
@@ -150,6 +152,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+         <Partners/>
         <div className='w-full py-5 px-6 bg-black'>
             <div className=' border-b border-secondary p-2 flex flex-col md:flex-row gap-3 items-center'>
                 <h1 className='text-secondary text-2xl font-bold'>Join The Movement</h1>
