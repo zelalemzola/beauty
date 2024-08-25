@@ -46,7 +46,7 @@ const HomePage = () => {
           <HeroButton/>
         </div>
 
-        <div className='py-10 w-full h-screen'>
+        <div className='py-10 pt-[20%] md:pt-10 w-full h-screen'>
             <Image src={'/4.png'} width={400} height={400} alt='' className='rounded-b-full absolute top-0 left-0 ml-[10%] hidden md:block'/>
             <div className='flex flex-col md:flex-row'>
                 <div className=' md:w-[40%]  place-content-end'>
