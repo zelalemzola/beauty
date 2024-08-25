@@ -183,11 +183,10 @@ const Workers = () => {
           <Card key={maid._id} className="relative shadow-lg py-4 md:p-4 scale-[90%] md:scale-100 bg-primary text-white hover:shadow-xl">
             <CardHeader>
               <div className="flex items-center justify-center">
-                {/* <Avatar className="absolute top-0 mt-[-15%]">
+                <Avatar className="absolute top-0 mt-[-15%]">
                   <AvatarImage src={maid.imageUrl} alt="worker photo"/>
                   <AvatarFallback>worker photo</AvatarFallback>
-                </Avatar> */}
-                <Image src={maid.imageUrl} alt='' width={70} height={70} className="rounded-full absolute top-0 mt-[-15%]"/>
+                </Avatar>
               </div>
               <CardTitle className="pt-[5%]">
                 <h2 className="card-title text-primary font-bold text-[14px] md:text-[20px] text-white">{maid.name}</h2>
