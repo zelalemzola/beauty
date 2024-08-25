@@ -187,7 +187,7 @@ const Workers = () => {
                   <AvatarImage src={maid.imageUrl} alt="worker photo"/>
                   <AvatarFallback>worker photo</AvatarFallback>
                 </Avatar> */}
-                <Image src={maid.imageUrl} alt='' width={70} height={70} className="rounded-full"/>
+                <Image src={maid.imageUrl} alt='' width={70} height={70} className="rounded-full absolute top-0 mt-[-15%]"/>
               </div>
               <CardTitle className="pt-[5%]">
                 <h2 className="card-title text-primary font-bold text-[14px] md:text-[20px] text-white">{maid.name}</h2>
