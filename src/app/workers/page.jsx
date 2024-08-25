@@ -184,7 +184,7 @@ const Workers = () => {
             <CardHeader>
               <div className="flex items-center justify-center">
                 <Avatar className="absolute top-0 mt-[-15%]">
-                  <AvatarImage src={maid.imageUrl} alt="worker photo" />
+                  <AvatarImage src={maid.imageUrl} alt="worker photo" className='w-60'/>
                   <AvatarFallback>worker photo</AvatarFallback>
                 </Avatar>
               </div>
